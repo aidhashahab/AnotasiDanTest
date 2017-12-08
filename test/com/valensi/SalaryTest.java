@@ -18,20 +18,18 @@ import static org.junit.Assert.*;
  * @author user
  */
 public class SalaryTest {
-    
+
     public SalaryTest() {
     }
-    
+
     @Test
-    public void calculateSalaryWithBonus(){
+    public void calculateSalaryWithBonus() {
         Programmer p = new Programmer();
         p.setSalary(10000000);
         double gaji = p.calculateSalaryWithBonus(0.25);
         double expect = 12500000;
-        assertEquals(expect, gaji,0); // memebandingkan harapan dan aktual(gaji)
+        assertEquals(expect, gaji, 0); // memebandingkan harapan dan aktual(gaji)
     }
-    
-    
-    
+
     // public void hello() {}
 }

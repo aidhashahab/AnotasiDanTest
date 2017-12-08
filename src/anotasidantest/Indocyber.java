@@ -13,5 +13,6 @@ public @interface Indocyber {
     String namaClass();
     int year();
 
-    public String namaclass();
+    
+    
 }

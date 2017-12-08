@@ -10,10 +10,10 @@ import java.util.Date;
 
 /**
  *
- * @author user
- */
+ */@Indocyber(namaClass = "Boot", year = 2017)
+
+ 
 public class Programmer extends Employee {
-//@Indocyber(namaclass = "Boot", year = 2017)
 
     
     public Programmer() {
@@ -29,6 +29,13 @@ public class Programmer extends Employee {
 //disini ada logic
         return  1000;
     }
+
+    @Override
+    public String toString() {
+        return "Programmer" +getName(); //To change body of generated methods, choose Tools | Templates.
+    }
+       
+       
 
     
     
